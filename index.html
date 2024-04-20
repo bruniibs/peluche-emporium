@@ -1,11 +1,354 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Plushie Emporium</title>
+    <title>Plushie stuffie</title>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- arquivo do css link -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
+    <!-- começo do header -->
+    <header>
+
+        <input type="checkbox" name="" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label>
+
+        <a href="#" class="logo">Peluche<span>.</span></a>
+        
+        <nav class="navbar">
+            <a href="#home">Início</a>
+            <a href="#about">Sobre</a>
+            <a href="#products">Produtos</a>
+            <a href="#contact">Contato</a>
+        </nav>
+            
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a id="usuario" href="#" class="fas fa-user"></a>
+        </div>
+    </header>
+    <!-- fim do header -->
+
+    <!-- começo da home -->
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>Peluche Stuff</h3>
+            <span> Pelúcias fofas & macias </span>
+            <p>Explore um mundo encantador de pelúcias cuidadosamente selecionadas para encantar crianças e adultos. Cada pelúcia na "Peluche" é escolhida com carinho para garantir momentos de alegria e conforto. </p>
+            <a href="#products" class="btn">Comprar Agora</a>
+        </div>
+
+    </section>
+    <!-- fim da home -->
+
+    <!-- sobre nós inicio -->
+    <section class="about" id="about">
+
+        <h1 class="heading"> <span> Sobre </span>  Nós >.< </h1>
+
+        <div class="row">
+            <div class="video-container">
+                <img src="../images/videogif.gif" alt="video"> <!-- lugar pra (video)-->
+                <h3>Sua melhor loja de pelúcias</h3>
+            </div>
+
+            <div class="content">
+                <h3>Por que nos escolher?</h3>
+                <p>Nosso compromisso com a qualidade é evidente em cada detalhe. Selecionamos cuidadosamente os materiais mais suaves e duráveis para criar pelúcias que não são apenas adoráveis, mas também feitas para resistir ao teste do tempo.</p>
+                <p>Ao longo dos anos, construímos uma comunidade de clientes que compartilham conosco o amor pelas pelúcias. A confiança que você deposita em nós é a força motriz por trás de nosso compromisso contínuo em proporcionar experiências únicas e memoráveis. A "Peluche" é mais do que uma loja; é um lar para abraços peludos, risadas contagiantes e momentos especiais.</p>
+                <a href="#" class="btn">descobrir mais</a>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- fim do sobre nós -->
+
+    <!-- inicio dos icons (parte de entrega etc) -->
+    <section class="icons-container">
+
+        <div class="icons">
+            <img src="images/icon-1.png" alt="">
+            <div class="info">
+                <h3>Frete grátis</h3>
+                <span>região sul e sudeste</span>
+            </div>
+        </div>
+
+        <div class="icons">
+            <img src="images/icon-2.png" alt="">
+            <div class="info">
+                <h3>10 dias pra devolução</h3>
+                <span>garantia do seu dinheiro de volta</span>
+            </div>
+        </div>
+
+        <div class="icons">
+            <img src="images/icon-3.png" alt="">
+            <div class="info">
+                <h3>Embalagem para presente</h3>
+                <span>disponível para todos os seus pedidos</span>
+            </div>
+        </div>
+
+        <div class="icons">
+            <img src="images/icon-4.png" alt="">
+            <div class="info">
+                <h3>Pagamento seguro</h3>
+                <span>protegido pelo PayPal</span>
+            </div>
+        </div>
+
+    </section>
+    <!-- fim dos icons -->
+
+    <!-- inicio da sessão produtos -->
+    <section class="products" id="products">
+
+        <h1 class="headings"> ultimos <span>produtos</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <span class="discount">-25%</span>
+                <div class="image">
+                    <img src="images/plush-pochacco-sanrio-latte-kuma-baby.png" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#usuario" class="cart-btn">comprar</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>pocchaco bear</h3>
+                    <div class="price"> R$119,99 <span>R$159.99</span> </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-27%</span>
+                <div class="image">
+                    <img src="images/plush-my-melody-sanrio-latte-kuma-baby.png" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#usuario" class="cart-btn">comprar</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>my melody bear</h3>
+                    <div class="price"> R$129,99 <span>R$179,99</span> </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-12%</span>
+                <div class="image">
+                    <img src="images/plush-pompompurin-sanrio-latte-kuma-baby.png" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#usuario" class="cart-btn">comprar</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>pompompurin bear</h3>
+                    <div class="price"> R$139,99 <span>R$159,99</span> </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-16%</span>
+                <div class="image">
+                    <img src="images/plush-rilakkuma-neko-neko-no-yu.png" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#usuario" class="cart-btn">comprar</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>rilakkuma neko</h3>
+                    <div class="price"> R$109,99 <span>R$149,99</span> </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-35%</span>
+                <div class="image">
+                    <img src="images/plush-korilakkuma-rilakkuma-neko-neko-no-yu.png" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#usuario" class="cart-btn">comprar</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>korilakkuma neko</h3>
+                    <div class="price"> R$109.99 <span>R$169,99</span> </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-28%</span>
+                <div class="image">
+                    <img src="images/plush-kiiroitori-rilakkuma-neko-neko-no-yu.png" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a id="compra" href="#usuario" class="cart-btn">comprar</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>kiiroitori neko</h3>
+                    <div class="price"> R$99,99 <span>R$139,99</span> </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- fim da sessão produtos -->
+
+    <!-- inicio dos reviews -->
+
+        <section class="review" id="review">
+
+        <h1 class="heading"> <span><Ri:a>Review</span> dos Clientes 0.0 </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Eu sempre fui uma amante de pelúcias e, ao descobrir a Peluche, encontrei meu paraíso! Adquiri um adorável pocchaco de pelúcia para decorar meu quarto, e não poderia estar mais satisfeita. A pelúcia é extremamente fofa e macia, excedendo minhas expectativas. A Peluche se tornou minha loja de pelúcias de referência, e definitivamente farei mais compras para a minha crescente coleção. Recomendo a todos os amantes de pelúcias e sanrio!"</p>
+                <div class="user">
+                    <img src="images/pic-1.jpg" alt="">
+                    <div class="user-info">
+                        <h3>sammy</h3>
+                        <span>happy customer</span>
+                    </div>
+                </div>
+                <span class="fas fa-quote-right"></span>
+            </div>
+
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Minha experiência com a Peluche foi simplesmente encantadora! Comprei um adorável coelho de pelúcia para presentear minha sobrinha, e fiquei impressionada com a qualidade e a maciez do produto. A entrega foi rápida e eficiente, e a embalagem cuidadosa adicionou um toque especial. A Peluche superou minhas expectativas, e definitivamente farei mais compras aqui. Recomendo a todos que procuram pelúcias de alta qualidade e serviço excepcional!</p>
+                <div class="user">
+                    <img src="images/pic-2.jpg" alt="">
+                    <div class="user-info">
+                        <h3>jeon soooomi</h3>
+                        <span>happy customer</span>
+                    </div>
+                </div>
+                <span class="fas fa-quote-right"></span>
+            </div>
+
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Comprei um conjunto de pelúcias para enfeitar minha sala de estar, e estou radiante! A variedade de opções me permitiu escolher pelúcias que se encaixam perfeitamente na minha decoração. Cada pelúcia é de alta qualidade, e a textura macia adiciona um toque acolhedor ao ambiente. A loja conquistou meu coração, e agora minha sala está mais aconchegante do que nunca. Cinco estrelas para essa loja incrível!</p>
+                <div class="user">
+                    <img src="images/pic-3.jpg" alt="">
+                    <div class="user-info">
+                        <h3>hannipam</h3>
+                        <span>happy customer</span>
+                    </div>
+                </div>
+                <span class="fas fa-quote-right"></span>
+            </div>
+
+        </div>
+
+        </section>
+
+    <!-- fim dos reviews -->
+
+    <!-- inicio do cantate a gnt -->
+
+        <setion class="contact" id="contact">
+
+            <h1 class="heading"> Entre em <span> Contato <3 </span> </h1>
+
+            <div class="row">
+
+                <form action="">
+                    <input type="text" placeholder="nome" class="box">
+                    <input type="email" placeholder="email" class="box">
+                    <input type="number" placeholder="telefone" class="box">
+                    <textarea name="" class="box" placeholder="escreva sua mensagem" id="" cols="30" rows="10"></textarea>
+                    <input type="submit" value="enviar" class="btn">
+                </form>
+
+                <div class="image">
+                    <img src="images/snow-globe-m-sanrio-characters-removebg-preview.png" alt="">
+                </div>
+
+            </div>
+
+        </setion>
+
+    <!-- fim do nos contate -->
+
+    <!-- inicio do footer -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Links Rápidos</h3>
+                <a href="#">Início</a>
+                <a href="#">Sobre</a>
+                <a href="#">Produtos</a>
+                <a href="#">Reviews</a>
+                <a href="#">Contato</a>
+            </div>
+
+            <div class="box">
+                <h3>Links Extras</h3>
+                <a href="#">Minha conta</a>
+                <a href="#">Meus pedidos</a>
+                <a href="#">Meus favoritos</a>
+            </div>
+
+            <div class="box">
+                <h3>Entregamos para as regiões:</h3>
+                <a href="#">Sudeste</a>
+                <a href="#">Sul</a>
+                <a href="#">Centro-Oeste</a>
+                <a href="#">Nordeste</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- fim do footer -->
     
 </body>
 </html>
