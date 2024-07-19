@@ -1,4 +1,4 @@
-<div align="center"> <img width="100%" src="images/uba09-heart-line.gif">
+<div align="left"> <img width="50%" src="images/uba09-heart-line.gif"><div align="right"> <img width="50%" src="images/uba09-heart-line.gif">
 
 <div align="center"> <img width="55%" src="images/Plushie_Emporium.gif">
 
