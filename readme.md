@@ -4,7 +4,7 @@
 &#8203
 <div align="center"> <img width="55%" src="images/Plushie_Emporium.gif">
 
-<div style="flex" ><img width="10%" src="images/05a-info.gif" style="margin-left: -2px;"></div>
+<div style="text-align: left; padding-left: 10%; width: 10%"><img src="images/05a-info.gif" style="max-width: 100%;"></div>
 
 ### projeto em grupo de uma loja de pelucias
 
