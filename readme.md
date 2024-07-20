@@ -1,5 +1,5 @@
 <div style="display: flex;" align="center">
-<img width="20%" src="images/dividertwoo.gif"><img width="20%" src="images/images/dividertwoo.gif"><img width="20%" src="images/uba09-heart-line.gif"><img width="20%" src="images/uba09-heart-line.gif"><img width="20%" src="images/uba09-heart-line.gif">
+<img width="20%" src="images/dividertwoo.gif"><img width="20%" src="images/dividertwoo.gif"><img width="20%" src="images/dividertwoo.gif"><img width="20%" src="images/dividertwoo.gif"><img width="20%" src="images/dividertwoo.gif">
 </div>
 &#8203
 <div align="center"> <img width="55%" src="images/Plushie_Emporium.gif"> </div>
@@ -7,4 +7,4 @@
 
 ### projeto em grupo de uma loja de pelucias
 
-Trabalho avaliativo da displina Programação web feito em grupo
+Peluche Emporium é uma loja online onde você pode enconrtrr
