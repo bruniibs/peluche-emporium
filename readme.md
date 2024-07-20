@@ -8,9 +8,20 @@
 
 #
 
-## projeto em grupo de uma loja de pelucias
+## Projeto em grupo de uma loja de pelucias
 
 Peluche Emporium é uma loja online onde você pode encontrar as pelucias mais fofas que existem! <br>
 Site criado para avaliação semesral da faculdade de computação e treino de desenvolvimento web. Inicalmente feito em php porem tivemos problemas com o banco de dados e acabamos não finalizando ele 100%. Pretendo pegar esse projeto pra finalizar ele no futuro.
+
+.
+
+### Planos para o site:
+- pagina de cadastro/login de usuario;
+- pagina profile;
+- pagina "meus pedidos";
+- pagina wishlist;
+- pagina "meu carrinho" + função de adicionar pelucias no carrinho e finalizar a compra;
+
+Por enquanto é so isso 😋
 
 <div align="center"><img  src="images/underconstruction.gif"></div>
